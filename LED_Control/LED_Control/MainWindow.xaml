@@ -1,0 +1,27 @@
+﻿<Window x:Class="LED_Control.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LED_Control"
+        mc:Ignorable="d"
+        Title="Menu" Height="350" Width="525">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Margin" Value="0,10,0,0"/>
+                </Style>
+            </StackPanel.Resources>
+            <StackPanel Width="100" Height="100">
+            <Button x:Name="LedButton" Content="LED" Click="LedButton_Click" />
+            <Button x:Name="ConfigButton" Content="Konfiguracja" Click="ConfigButton_Click" />
+            <Label x:Name="Infolabel" Content="cos" />
+        </StackPanel>
+        
+            
+        
+
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfLEDSegment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LEDSegment>
+    <Id>0</Id>
+    <Name>fds</Name>
+    <Type>ON/OFF</Type>
+    <Blink>White</Blink>
+  </LEDSegment>
+  <LEDSegment>
+    <Id>1</Id>
+    <Name>fds</Name>
+    <Type>ON/OFF</Type>
+    <Blink>Black</Blink>
+  </LEDSegment>
+  <LEDSegment>
+    <Id>2</Id>
+    <Name>fds22</Name>
+    <Type>ON/OFF</Type>
+    <Blink>Black</Blink>
+  </LEDSegment>
+  <LEDSegment>
+    <Id>0</Id>
+    <Name />
+    <Type>ON/OFF</Type>
+    <Blink>Black</Blink>
+  </LEDSegment>
+  <LEDSegment>
+    <Id>0</Id>
+    <Name>fdsf</Name>
+    <Type>ON/OFF</Type>
+    <Blink>White</Blink>
+  </LEDSegment>
+</ArrayOfLEDSegment>
