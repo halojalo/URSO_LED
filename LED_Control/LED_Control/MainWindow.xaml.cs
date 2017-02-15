@@ -40,6 +40,7 @@ namespace LED_Control
         ObservableCollection<LEDSegment> list;
          String AdrressIP = "10.2.2.236";
             String Port = "48569";
+        //testowa
         public MainWindow()
         {
             InitializeComponent();
