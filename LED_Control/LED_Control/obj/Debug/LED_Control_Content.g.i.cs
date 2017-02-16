@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("taki%20tam.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("nowy111.txt")]
 
 
